@@ -16,6 +16,7 @@ public class LoginActivity extends AppCompatActivity {
     TextInputEditText passkey;
     MaterialButton verify;
     String pass="";
+    //comment test
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

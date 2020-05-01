@@ -7,104 +7,104 @@
 7
 8    <uses-sdk
 9        android:minSdkVersion="24"
-9-->D:\Work\WithYou\app\src\main\AndroidManifest.xml
+9-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml
 10        android:targetSdkVersion="29" />
-10-->D:\Work\WithYou\app\src\main\AndroidManifest.xml
+10-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml
 11
 12    <dist:module dist:instant="true" />
-12-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:6:5-40
-12-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:6:18-37
+12-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:6:5-40
+12-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:6:18-37
 13
 14    <uses-permission android:name="android.permission.CALL_PHONE" />
-14-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:8:5-69
-14-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:8:22-66
+14-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:8:5-69
+14-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:8:22-66
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:9:5-67
-15-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:9:22-64
+15-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:9:5-67
+15-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:9:22-64
 16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:10:5-79
-16-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:10:22-76
+16-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:10:22-76
 17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-17-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:11:5-81
-17-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:11:22-78
+17-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:11:5-81
+17-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:11:22-78
 18    <uses-permission android:name="android.permission.SEND_SMS" />
-18-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:12:5-67
-18-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:12:22-64
+18-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:12:5-67
+18-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:12:22-64
 19    <uses-permission android:name="android.permission.READ_SMS" />
-19-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:13:5-67
-19-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:13:22-64
+19-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:13:5-67
+19-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:13:22-64
 20
 21    <application
-21-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:15:5-40:19
+21-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:15:5-40:19
 22        android:allowBackup="true"
-22-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:16:9-35
+22-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:16:9-35
 23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-23-->[androidx.core:core:1.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d56513dd06f98e3420f7ea50575b7f08\core-1.2.0\AndroidManifest.xml:24:18-86
+23-->[androidx.core:core:1.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\da2d7a943cb079388b6be8ac2f95d587\core-1.2.0\AndroidManifest.xml:24:18-86
 24        android:debuggable="true"
 25        android:extractNativeLibs="false"
 26        android:icon="@drawable/ic_security_black_24dp"
-26-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:17:9-56
+26-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:17:9-56
 27        android:label="@string/app_name"
-27-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:18:9-41
+27-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:18:9-41
 28        android:roundIcon="@drawable/ic_security_black_24dp"
-28-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:19:9-61
+28-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:19:9-61
 29        android:supportsRtl="true"
-29-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:20:9-35
+29-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:20:9-35
 30        android:theme="@style/AppTheme" >
-30-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:21:9-40
+30-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:21:9-40
 31        <activity android:name="com.example.withyou.SettingsActivity" />
-31-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:22:9-63
-31-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:22:19-51
+31-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:22:9-63
+31-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:22:19-51
 32        <activity android:name="com.example.withyou.AccessActivity" />
-32-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:23:9-52
-32-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:23:19-49
+32-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:23:9-52
+32-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:23:19-49
 33
 34        <receiver android:name="com.example.withyou.LowBatteryReceiver" >
-34-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:25:9-29:20
-34-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:25:19-53
+34-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:25:9-29:20
+34-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:25:19-53
 35            <intent-filter>
-35-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:26:13-28:29
+35-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:26:13-28:29
 36                <action android:name="android.intent.action.BATTERY_LOW" />
-36-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:27:17-76
-36-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:27:25-73
+36-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:27:17-76
+36-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:27:25-73
 37            </intent-filter>
 38        </receiver>
 39
 40        <activity android:name="com.example.withyou.LoginActivity" />
-40-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:31:9-51
-40-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:31:19-48
+40-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:31:9-51
+40-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:31:19-48
 41        <activity android:name="com.example.withyou.SplashActivity" >
-41-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:32:9-38:20
-41-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:32:19-49
+41-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:32:9-38:20
+41-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:32:19-49
 42            <intent-filter>
-42-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:33:13-37:29
+42-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:33:13-37:29
 43                <action android:name="android.intent.action.MAIN" />
-43-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:34:17-69
-43-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:34:25-66
+43-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:34:17-69
+43-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:34:25-66
 44
 45                <category android:name="android.intent.category.LAUNCHER" />
-45-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:36:17-77
-45-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:36:27-74
+45-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:36:17-77
+45-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:36:27-74
 46            </intent-filter>
 47        </activity>
 48        <activity android:name="com.example.withyou.MainActivity" />
-48-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:39:9-50
-48-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:39:19-47
+48-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:39:9-50
+48-->C:\Users\hp\Desktop\WithYou-master\app\src\main\AndroidManifest.xml:39:19-47
 49        <activity
-49-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\446c8e633f1c2f9ce709bf2702f31232\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+49-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 50            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-50-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\446c8e633f1c2f9ce709bf2702f31232\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+50-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 51            android:exported="false"
-51-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\446c8e633f1c2f9ce709bf2702f31232\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+51-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 52            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-52-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\446c8e633f1c2f9ce709bf2702f31232\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+52-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 53
 54        <meta-data
-54-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\31abab72c580a308e5190fa6c877af2e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+54-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\752a983649401b2c06f8f162da3a35f7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 55            android:name="com.google.android.gms.version"
-55-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\31abab72c580a308e5190fa6c877af2e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+55-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\752a983649401b2c06f8f162da3a35f7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 56            android:value="@integer/google_play_services_version" />
-56-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\31abab72c580a308e5190fa6c877af2e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+56-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\752a983649401b2c06f8f162da3a35f7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 57    </application>
 58
 59</manifest>
