@@ -4,7 +4,24 @@
             "outputFile": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rPT\\values-pt-rPT.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\gargg\\.gradle\\caches\\transforms-2\\files-2.1\\752a983649401b2c06f8f162da3a35f7\\jetified-play-services-basement-17.0.0\\res\\values-pt-rPT\\values.xml",
+                    "source": "C:\\Users\\gargg\\.gradle\\caches\\transforms-2\\files-2.1\\48cd7bd08e89712a0952f96bb9006374\\core-1.5.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "106",
+                        "startColumns": "4",
+                        "startOffsets": "10363",
+                        "endColumns": "100",
+                        "endOffsets": "10459"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\gargg\\.gradle\\caches\\transforms-2\\files-2.1\\66439ad45bf738d608264a6cba5ad31d\\jetified-play-services-basement-17.5.0\\res\\values-pt-rPT\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\gargg\\.gradle\\caches\\transforms-2\\files-2.1\\e2c213d4dfcecf7d0961805c3c2450f7\\jetified-play-services-base-17.0.0\\res\\values-pt-rPT\\values.xml",
+                    "source": "C:\\Users\\gargg\\.gradle\\caches\\transforms-2\\files-2.1\\9a42baebf3b2b13243dbf6b7d8620e8c\\jetified-play-services-base-17.5.0\\res\\values-pt-rPT\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -35,23 +52,6 @@
                         "startOffsets": "3407,3514,3709,3839,3949,4176,4306,4458,4800,5047,5157,5358,5491,5709,5917,6015,6114",
                         "endColumns": "106,194,129,109,226,129,151,137,246,109,200,132,217,207,97,98,115",
                         "endOffsets": "3509,3704,3834,3944,4171,4301,4453,4591,5042,5152,5353,5486,5704,5912,6010,6109,6225"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\gargg\\.gradle\\caches\\transforms-2\\files-2.1\\48cd7bd08e89712a0952f96bb9006374\\core-1.5.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "106",
-                        "startColumns": "4",
-                        "startOffsets": "10363",
-                        "endColumns": "100",
-                        "endOffsets": "10459"
                     }
                 },
                 {
