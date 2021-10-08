@@ -8,12 +8,12 @@ MERGED from [com.airbnb.android:lottie:3.1.0] C:\Users\gargg\.gradle\caches\tran
 MERGED from [com.google.android.material:material:1.5.0-alpha04] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\ff15d52eb4e7cb880d9b57e9c9b72e41\material-1.5.0-alpha04\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\69018570e438724ceeefdf40cd125068\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\87b306f7e00e95db482f5183600a49ce\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\9c471c6fca5c331b02b0846d937f0a6f\jetified-play-services-location-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\ad6b87f04c7f90fb25b3eb7df1e83045\jetified-play-services-location-18.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\6a7df7362b69e624cc09f62a6bc7d415\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\9a42baebf3b2b13243dbf6b7d8620e8c\jetified-play-services-base-17.5.0\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\c234eebea34d22028bd72e4a20e708b9\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\e18e7c4ffde6aae01ec5eaa5ad866e6b\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\752a983649401b2c06f8f162da3a35f7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\da916acb7786918058cd8e5848460624\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\66439ad45bf738d608264a6cba5ad31d\jetified-play-services-basement-17.5.0\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\749c232115217351c91aa74c2d78bd12\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\c762f34333fe942fe178aa7e7ef7e85d\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\b62c84eaf3f7356385d5ca342ecc7809\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -98,16 +98,16 @@ MERGED from [com.google.android.material:material:1.5.0-alpha04] C:\Users\gargg\
 MERGED from [com.google.android.material:material:1.5.0-alpha04] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\ff15d52eb4e7cb880d9b57e9c9b72e41\material-1.5.0-alpha04\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\69018570e438724ceeefdf40cd125068\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\69018570e438724ceeefdf40cd125068\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\9c471c6fca5c331b02b0846d937f0a6f\jetified-play-services-location-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\9c471c6fca5c331b02b0846d937f0a6f\jetified-play-services-location-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\ad6b87f04c7f90fb25b3eb7df1e83045\jetified-play-services-location-18.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\ad6b87f04c7f90fb25b3eb7df1e83045\jetified-play-services-location-18.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\9a42baebf3b2b13243dbf6b7d8620e8c\jetified-play-services-base-17.5.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\9a42baebf3b2b13243dbf6b7d8620e8c\jetified-play-services-base-17.5.0\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\c234eebea34d22028bd72e4a20e708b9\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\c234eebea34d22028bd72e4a20e708b9\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\e18e7c4ffde6aae01ec5eaa5ad866e6b\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\e18e7c4ffde6aae01ec5eaa5ad866e6b\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\752a983649401b2c06f8f162da3a35f7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\752a983649401b2c06f8f162da3a35f7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\da916acb7786918058cd8e5848460624\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\da916acb7786918058cd8e5848460624\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\66439ad45bf738d608264a6cba5ad31d\jetified-play-services-basement-17.5.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\66439ad45bf738d608264a6cba5ad31d\jetified-play-services-basement-17.5.0\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.5.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\48cd7bd08e89712a0952f96bb9006374\core-1.5.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.5.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\48cd7bd08e89712a0952f96bb9006374\core-1.5.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\2c8d2ac8cedab33eacecbae97ab3cb06\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
@@ -178,18 +178,18 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\gargg\.g
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\69018570e438724ceeefdf40cd125068\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\87b306f7e00e95db482f5183600a49ce\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\87b306f7e00e95db482f5183600a49ce\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\9c471c6fca5c331b02b0846d937f0a6f\jetified-play-services-location-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\9c471c6fca5c331b02b0846d937f0a6f\jetified-play-services-location-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\ad6b87f04c7f90fb25b3eb7df1e83045\jetified-play-services-location-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\ad6b87f04c7f90fb25b3eb7df1e83045\jetified-play-services-location-18.0.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\6a7df7362b69e624cc09f62a6bc7d415\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\6a7df7362b69e624cc09f62a6bc7d415\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\9a42baebf3b2b13243dbf6b7d8620e8c\jetified-play-services-base-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\9a42baebf3b2b13243dbf6b7d8620e8c\jetified-play-services-base-17.5.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\c234eebea34d22028bd72e4a20e708b9\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\c234eebea34d22028bd72e4a20e708b9\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\e18e7c4ffde6aae01ec5eaa5ad866e6b\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\e18e7c4ffde6aae01ec5eaa5ad866e6b\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\752a983649401b2c06f8f162da3a35f7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\752a983649401b2c06f8f162da3a35f7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\da916acb7786918058cd8e5848460624\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\da916acb7786918058cd8e5848460624\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\66439ad45bf738d608264a6cba5ad31d\jetified-play-services-basement-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\66439ad45bf738d608264a6cba5ad31d\jetified-play-services-basement-17.5.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\749c232115217351c91aa74c2d78bd12\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\749c232115217351c91aa74c2d78bd12\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\c762f34333fe942fe178aa7e7ef7e85d\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
@@ -259,16 +259,16 @@ INJECTED from C:\Users\gargg\Desktop\contriHub\WithYou\app\src\main\AndroidManif
 		ADDED from C:\Users\gargg\Desktop\contriHub\WithYou\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\gargg\Desktop\contriHub\WithYou\app\src\main\AndroidManifest.xml
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\9a42baebf3b2b13243dbf6b7d8620e8c\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\9a42baebf3b2b13243dbf6b7d8620e8c\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\9a42baebf3b2b13243dbf6b7d8620e8c\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\9a42baebf3b2b13243dbf6b7d8620e8c\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\752a983649401b2c06f8f162da3a35f7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\66439ad45bf738d608264a6cba5ad31d\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\752a983649401b2c06f8f162da3a35f7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\66439ad45bf738d608264a6cba5ad31d\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\752a983649401b2c06f8f162da3a35f7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\gargg\.gradle\caches\transforms-2\files-2.1\66439ad45bf738d608264a6cba5ad31d\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
