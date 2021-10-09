@@ -36,7 +36,7 @@ public class SettingsActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 saveData();
-                Toast.makeText(getBaseContext(),"Details Set",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getBaseContext(), R.string.details_set,Toast.LENGTH_SHORT).show();
                 loadData();
             }
         });
@@ -69,7 +69,8 @@ public class SettingsActivity extends AppCompatActivity {
         String callNumber=sharedPreferences.getString(CALL,"");
         String textNumber=sharedPreferences.getString(TEXT,"");
 
-        Toast.makeText(getBaseContext(),"Call Number set to :"+callNumber+"\nText Number set to :"+textNumber,Toast.LENGTH_SHORT).show();
+        Toast.makeText(getBaseContext(),
+                getString(R.string.call_number_set_to)+callNumber+"\n"+getString(R.string.text_number_set_to)+textNumber,Toast.LENGTH_SHORT).show();
 
     }
 

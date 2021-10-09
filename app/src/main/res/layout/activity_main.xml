@@ -20,7 +20,7 @@
 
             <TextView
                 android:id="@+id/set_c"
-                android:text="Call Number : Loading..."
+                android:text="@string/call_number_loading"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
@@ -29,7 +29,7 @@
                 />
             <TextView
                 android:id="@+id/set_t"
-                android:text="Text Number : Loading..."
+                android:text="@string/text_number_loading"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"

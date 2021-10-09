@@ -32,11 +32,11 @@ public class LoginActivity extends AppCompatActivity {
                 pass= String.valueOf(passkey.getText());
                 Toast.makeText(getBaseContext(),pass,Toast.LENGTH_SHORT).show();
                 if(pass.equalsIgnoreCase("qwe123")) {
-                    Toast.makeText(getBaseContext(), "Welcome", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getBaseContext(), R.string.welcome, Toast.LENGTH_SHORT).show();
                     startActivity(new android.content.Intent(LoginActivity.this, MainActivity.class));
                 }
                 else
-                    Toast.makeText(getBaseContext(),"Wrong Password",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getBaseContext(), R.string.wrong_password,Toast.LENGTH_SHORT).show();
             }
         });
 
