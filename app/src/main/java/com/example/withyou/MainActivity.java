@@ -58,14 +58,14 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences sharedPreferences=getSharedPreferences(SHARED_PREFS,MODE_PRIVATE);
 
         if(!sharedPreferences.getString(CALL,"").equals(""))
-            set_c.setText("Call Number : "+ sharedPreferences.getString(CALL,""));
+            set_c.setText(getString(R.string.call_no)+ sharedPreferences.getString(CALL,""));
         else
-            set_c.setText("Call Number : Not Set");
+            set_c.setText(R.string.call_no_not_set);
 
         if(!sharedPreferences.getString(TEXT,"").equals(""))
-            set_t.setText("Text Number : "+ sharedPreferences.getString(TEXT,""));
+            set_t.setText(getString(R.string.text_no)+ sharedPreferences.getString(TEXT,""));
         else
-            set_t.setText("Text Number : Not Set");
+            set_t.setText(R.string.text_no_not_set);
 
 
 
@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
                     if (ContextCompat.checkSelfPermission(getApplicationContext(), CALL_PHONE) == PackageManager.PERMISSION_GRANTED)
                         startActivity(intent);
                     else
-                        Toast.makeText(getBaseContext(),"Please Give Call Permission",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getBaseContext(), R.string.please_give_call_permission,Toast.LENGTH_SHORT).show();
                 }
 
             }
@@ -176,7 +176,7 @@ public class MainActivity extends AppCompatActivity {
             if (grantResults[0]==PackageManager.PERMISSION_GRANTED){
                 getCurrentLocation();
             }else{
-                Toast.makeText(this,"Permission Denied!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.permission_denied,Toast.LENGTH_SHORT).show();
             }
         }
     }
@@ -231,7 +231,7 @@ public class MainActivity extends AppCompatActivity {
         if(!textNumber.equals(""))
             mySmsManager.sendTextMessage(textNumber,null,message,null,null);
         else
-            Toast.makeText(getBaseContext(),"Please Set a number for text message",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getBaseContext(), R.string.please_set,Toast.LENGTH_SHORT).show();
 
 
 //        Intent smsIntent = new Intent(Intent.ACTION_SENDTO,Uri.parse("smsto:1234456;234567;9453998530"));

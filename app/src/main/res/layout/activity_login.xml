@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="Enter Password :"
+            android:text="@string/enter_password"
             android:textColor="#FFFFFF"
             android:textSize="35sp"
             android:layout_gravity="center"
@@ -46,7 +46,7 @@
             android:layout_weight="1"
             android:textSize="35sp"
             android:textColor="#FFFFFF"
-            android:text="Login"
+            android:text="@string/login"
             android:layout_gravity="center"
             />
 

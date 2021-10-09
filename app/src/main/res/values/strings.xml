@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">WithYou</string>
+    <string name="enter_password">Enter Password :</string>
+    <string name="login">Login</string>
+    <string name="call_number_loading">Call Number : Loading...</string>
+    <string name="text_number_loading">Text Number : Loading...</string>
+    <string name="settings">Settings</string>
+    <string name="police_number">Police Number</string>
+    <string name="text_numbers">Text Numbers</string>
+    <string name="set">SET</string>
+    <string name="welcome">Welcome</string>
+    <string name="wrong_password">Wrong Password</string>
+    <string name="low_battery">LOW baTTery</string>
+    <string name="details_set">Details Set</string>
+    <string name="call_number_set_to">Call Number set to :</string>
+    <string name="text_number_set_to">Text Number set to :</string>
+    <string name="please_give_call_permission">Please Give Call Permission</string>
+    <string name="permission_denied">Permission Denied!</string>
+    <string name="please_set">Please Set a number for text message</string>
+    <string name="call_no">\"Call Number : \"</string>
+    <string name="call_no_not_set">Call Number : Not Set</string>
+    <string name="text_no">\"Text Number : \"</string>
+    <string name="text_no_not_set">Text Number : Not Set</string>
 </resources>
