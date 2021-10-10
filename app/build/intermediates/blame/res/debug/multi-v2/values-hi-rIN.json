@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hi-rIN\\values-hi-rIN.xml",
+            "outputFile": "D:\\ContriHub\\WithYou\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hi-rIN\\values-hi-rIN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\values-hi-rIN\\strings.xml",
+                    "source": "D:\\ContriHub\\WithYou\\app\\src\\main\\res\\values-hi-rIN\\strings.xml",
                     "from": {
-                        "startLines": "-1,20,21,-1,15,14,-1,-1,-1,18,17,19,-1,-1,-1,22,23,-1,16,-1,-1,-1",
-                        "startColumns": "-1,4,4,-1,4,4,-1,-1,-1,4,4,4,-1,-1,-1,4,4,-1,4,-1,-1,-1",
-                        "startOffsets": "-1,1162,1215,-1,790,739,-1,-1,-1,1017,936,1082,-1,-1,-1,1279,1332,-1,861,-1,-1,-1",
-                        "endColumns": "-1,51,62,-1,69,49,-1,-1,-1,63,79,78,-1,-1,-1,51,67,-1,73,-1,-1,-1",
-                        "endOffsets": "-1,1209,1273,-1,855,784,-1,-1,-1,1076,1011,1156,-1,-1,-1,1326,1395,-1,930,-1,-1,-1"
+                        "startLines": "2,20,21,5,15,14,4,3,13,18,17,19,8,10,7,22,23,6,16,9,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,1162,1215,236,790,739,150,103,686,1017,936,1082,440,549,394,1279,1332,313,861,494,586,630",
+                        "endColumns": "44,51,62,75,69,49,84,45,51,63,79,78,52,35,44,51,67,79,73,53,42,54",
+                        "endOffsets": "97,1209,1273,307,855,784,230,144,733,1076,1011,1156,488,580,434,1326,1395,388,930,543,624,680"
                     },
                     "to": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23",
