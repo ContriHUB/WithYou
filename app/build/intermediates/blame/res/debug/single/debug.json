@@ -32,6 +32,10 @@
         "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\layout\\activity_access.xml"
     },
     {
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\xml\\file_paths.xml"
+    },
+    {
         "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
