@@ -25,7 +25,7 @@
     <string msgid="7208076849092622260" name="abc_search_hint">"వెతకండి…"</string>
     <string msgid="3741173234950517107" name="abc_searchview_description_clear">"ప్రశ్నను తీసివేస్తుంది"</string>
     <string msgid="693312494995508443" name="abc_searchview_description_query">"శోధన ప్రశ్న"</string>
-    <string msgid="3417662926640357176" name="abc_searchview_description_search">"శోధన"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"సెర్చ్"</string>
     <string msgid="1486535517437947103" name="abc_searchview_description_submit">"ప్రశ్నని సమర్పిస్తుంది"</string>
     <string msgid="2293578557972875415" name="abc_searchview_description_voice">"వాయిస్ శోధన"</string>
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"వీరితో షేర్ చేస్తుంది"</string>
@@ -103,6 +103,6 @@
     <string name="mtrl_picker_toggle_to_text_input_mode">వచన ఇన్‌పుట్ మోడ్‌కు మారుస్తుంది</string>
     <string name="mtrl_picker_toggle_to_year_selection">\'సంవత్సరాన్ని ఎంపిక చేసుకోవడం\'కు మారడానికి నొక్కండి</string>
     <string name="password_toggle_content_description">పాస్‌వర్డ్‌ను చూపు</string>
-    <string msgid="6264217191555673260" name="search_menu_title">"శోధన"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"సెర్చ్"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>
