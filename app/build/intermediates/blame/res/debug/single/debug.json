@@ -8,12 +8,12 @@
         "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
@@ -48,12 +48,12 @@
         "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_in_back.xml.flat",
-        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\drawable-v24\\in_back.xml"
-    },
-    {
         "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_out_back.xml.flat",
         "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\drawable-v24\\out_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_in_back.xml.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\drawable-v24\\in_back.xml"
     },
     {
         "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
@@ -68,12 +68,12 @@
         "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_power_back.xml.flat",
-        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\drawable-v24\\power_back.xml"
-    },
-    {
         "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_power_back.xml.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\drawable-v24\\power_back.xml"
     },
     {
         "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_security_black_24dp.xml.flat",
