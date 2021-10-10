@@ -25,7 +25,7 @@
     <string msgid="7208076849092622260" name="abc_search_hint">"शोधा…"</string>
     <string msgid="3741173234950517107" name="abc_searchview_description_clear">"क्‍वेरी साफ करा"</string>
     <string msgid="693312494995508443" name="abc_searchview_description_query">"शोध क्वेरी"</string>
-    <string msgid="3417662926640357176" name="abc_searchview_description_search">"शोध"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Search"</string>
     <string msgid="1486535517437947103" name="abc_searchview_description_submit">"क्वेरी सबमिट करा"</string>
     <string msgid="2293578557972875415" name="abc_searchview_description_voice">"व्हॉइस शोध"</string>
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"यांच्यासोबत शेअर करा"</string>
@@ -103,6 +103,6 @@
     <string name="mtrl_picker_toggle_to_text_input_mode">मजकूर इनपुट मोडवर स्विच करा</string>
     <string name="mtrl_picker_toggle_to_year_selection">वर्ष निवडण्यासाठी स्विच करा वर टॅप करा</string>
     <string name="password_toggle_content_description">पासवर्ड दाखवा</string>
-    <string msgid="6264217191555673260" name="search_menu_title">"शोध"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Search"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"९९९+"</string>
 </resources>
