@@ -7,3 +7,4 @@
 3. [Mansi Sahu](https://github.com/mansi0703)
 4. [Gursimran Kaur Saini](https://github.com/gursimran18)
 5. [Priyanshu Gupta](https://github.com/wsLord)
+6. [Yashika Jain](https://github.com/Yashikaj14)
