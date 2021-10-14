@@ -7,4 +7,5 @@
 5. [Priyanshu Gupta](https://github.com/wsLord)  
 6. [Abhijeet Pandey](https://github.com/abhijeetp94)  
 7. [Yashika Jain](https://github.com/Yashikaj14)
+8. [Swati Jindal](https://github.com/Swatijindal08)  
 
