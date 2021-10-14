@@ -4,8 +4,15 @@
     <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">#3a54ff</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="yourstyle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name ="android:textSize">20sp</item>
+    </style>
+    <style name="SettingTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">#64b5f6</item>
+        <item name="boxStrokeWidth">2dp</item>
     </style>
 
 </resources>
