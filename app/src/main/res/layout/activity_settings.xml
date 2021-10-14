@@ -5,117 +5,123 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#15151D"
+    android:background="#00a5c3"
     tools:context=".SettingsActivity">
-
-    <TextView
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="@string/settings"
-        android:textColor="#ffffff"
-        android:textSize="50sp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:background="@drawable/out_back"
-        />
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Settings"
+            android:layout_gravity="center"
+            android:gravity="center"
+            app:titleTextAppearance="@style/yourstyle"
+            app:maxButtonHeight="?attr/actionBarSize"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            android:background="#0084ff"
+            app:navigationIcon="?attr/homeAsUpIndicator"
+
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:text="@string/settings"-->
+<!--        android:textColor="#ffffff"-->
+<!--        android:textSize="50sp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:gravity="center"-->
+<!--        android:background="@drawable/out_back"-->
+<!--        />-->
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="4"
         android:orientation="vertical"
-        android:background="@drawable/off_back"
+        android:background="#fafafa"
         >
 
-        <LinearLayout
+        <com.google.android.material.textfield.TextInputLayout
 
-            android:layout_margin="20dp"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:background="@drawable/in_back"
+            android:layout_height="70sp"
+            android:hint="@string/police_number"
+            style="@style/SettingTextInputLayoutStyle"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            app:placeholderTextColor="#9f72e8"
+            app:hintTextColor="#64b5f6"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
             >
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:text="@string/police_number"
-                android:gravity="center"
-                android:textSize="35sp"
-                android:textColor="#ffffff"
-                />
-
-            <EditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/polnumber"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
                 android:inputType="number"
-                android:textSize="35sp"
-                android:textColor="#ffffff"
+                android:textColor="#2c2c2c"
                 />
 
-
-
-
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_margin="20dp"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="3"
-            android:orientation="vertical"
-            android:background="@drawable/in_back"
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/SettingTextInputLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:layout_margin="20dp"
+        android:hint="@string/text_numbers"
+            app:placeholderTextColor="#9f72e8"
+            app:hintTextColor="#64b5f6"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
             >
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:gravity="center"
-                android:layout_weight="1"
-                android:text="@string/text_numbers"
-                android:textSize="35sp"
-                android:textColor="#ffffff"
-                />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:inputType="number"
+            android:textColor="#2c2c2c"
+            />
 
-            <EditText
-                android:id="@+id/textnumber"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:inputType="number"
-                android:textSize="35sp"
-                android:textColor="#ffffff"
-                />
+    </com.google.android.material.textfield.TextInputLayout>
 
-
-
-
-
-
-        </LinearLayout>
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/set_button"
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
             android:text="@string/set"
-            android:textSize="30sp"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
             android:paddingLeft="50dp"
             android:paddingRight="50dp"
             app:cornerRadius="30dp"
+            android:backgroundTint="#0e86fb"
+
             />
 
-    </LinearLayout>
 
+    </LinearLayout>
 
 </LinearLayout>

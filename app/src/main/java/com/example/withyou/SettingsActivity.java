@@ -2,19 +2,21 @@ package com.example.withyou;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.button.MaterialButton;
 
 public class SettingsActivity extends AppCompatActivity {
 
     EditText polnumber,textnumber;
     MaterialButton set_button;
-
+    MaterialToolbar toolbar;
     public static final String SHARED_PREFS="sharedPrefs";
     public static final String CALL="call";
     public static final String TEXT="text";
@@ -40,7 +42,17 @@ public class SettingsActivity extends AppCompatActivity {
                 loadData();
             }
         });
+  //BackFunction Added
+        toolbar = (MaterialToolbar)findViewById(R.id.topAppBar);
 
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // back button pressed
+                Intent i= new Intent(SettingsActivity.this,AccessActivity.class);
+                startActivity(i);
+            }
+        });
 
     }
 
