@@ -9,3 +9,6 @@
 7. [Yashika Jain](https://github.com/Yashikaj14)
 8. [Swati Jindal](https://github.com/Swatijindal08)  
 9. [Nandan Kumar](https://github.com/DE-Nandan)
+
+10. [Karimulla Mohammad](https://github.com/rdx-rockstar)
+

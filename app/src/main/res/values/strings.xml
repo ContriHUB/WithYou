@@ -10,7 +10,7 @@
     <string name="set">SET</string>
     <string name="welcome">Welcome</string>
     <string name="wrong_password">Wrong Password</string>
-    <string name="low_battery">LOW baTTery</string>
+    <string name="low_battery">Low battery</string>
     <string name="details_set">Details Set</string>
     <string name="call_number_set_to">Call Number set to :</string>
     <string name="text_number_set_to">Text Number set to :</string>
