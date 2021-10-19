@@ -295,7 +295,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void sendSMS(String locationStatus){
+    public void sendSMS(String locationStatus){
 
         ActivityCompat.requestPermissions(MainActivity.this,new String[]{Manifest.permission.SEND_SMS,Manifest.permission.READ_SMS},PackageManager.PERMISSION_GRANTED);
 
