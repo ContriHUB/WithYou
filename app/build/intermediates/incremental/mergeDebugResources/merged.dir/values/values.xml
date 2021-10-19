@@ -1730,9 +1730,21 @@
     <item name="android:windowExitAnimation">@anim/mtrl_bottom_sheet_slide_out</item>
   </style>
     <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        
+        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">#F0E91E63</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#0084ff</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#15151D</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
@@ -5049,6 +5061,11 @@
         <item name="android:paddingLeft">@dimen/abc_action_bar_overflow_padding_start_material</item>
         <item name="android:paddingRight">@dimen/abc_action_bar_overflow_padding_end_material</item>
     </style>
+    <style name="SettingTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">#64b5f6</item>
+        <item name="boxStrokeWidth">2dp</item>
+
+    </style>
     <style name="ShapeAppearance.Material3.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
     <item name="cornerFamily">@integer/m3_sys_shape_large_corner_family</item>
     <item name="cornerSize">@dimen/m3_sys_shape_large_corner_size</item>
@@ -7782,6 +7799,9 @@
   </style>
     <style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
         <item name="statusBarBackground">#000000</item>
+    </style>
+    <style name="yourstyle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:textSize">20sp</item>
     </style>
     <declare-styleable name="ActionBar">
         

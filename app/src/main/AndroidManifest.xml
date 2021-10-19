@@ -31,8 +31,10 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths"></meta-data>
         </provider>
-        <activity android:name=".SettingsActivity"></activity>
-        <activity android:name=".AccessActivity" />
+        <activity android:name=".SettingsActivity"
+            android:theme="@style/AppTheme1"></activity>
+        <activity android:name=".AccessActivity"
+            android:theme="@style/AppTheme"/>
 
         <receiver android:name=".LowBatteryReceiver">
             <intent-filter>
@@ -41,14 +43,16 @@
         </receiver>
 
         <activity android:name=".LoginActivity" />
-        <activity android:name=".SplashActivity">
+        <activity android:name=".SplashActivity"
+            android:theme="@style/AppTheme2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme2"/>
     </application>
 
 </manifest>
