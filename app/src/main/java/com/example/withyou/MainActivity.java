@@ -44,14 +44,14 @@ import static android.Manifest.permission.CALL_PHONE;
 public class MainActivity extends AppCompatActivity {
 
 
-    private static final int REQUEST_CODE_LOCATION_PERMISSION=1;
+    private static final int REQUEST_CODE_LOCATION_PERMISSION = 1;
 
-    LottieAnimationView hospital,police,police_call,contact,defence,knife,camera;
-    TextView set_c,set_t;
+    LottieAnimationView hospital, police, police_call, contact, defence, knife, camera;
+    TextView set_c, set_t;
 
-    public static final String SHARED_PREFS="sharedPrefs";
-    public static final String CALL="call";
-    public static final String TEXT="text";
+    public static final String SHARED_PREFS = "sharedPrefs";
+    public static final String CALL = "call";
+    public static final String TEXT = "text";
     static final int REQUEST_IMAGE_CAPTURE = 1;
     String currentPhotoPath;
 
@@ -61,31 +61,30 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        set_c=findViewById(R.id.set_c);
-        set_t=findViewById(R.id.set_t);
+        set_c = findViewById(R.id.set_c);
+        set_t = findViewById(R.id.set_t);
 
-        SharedPreferences sharedPreferences=getSharedPreferences(SHARED_PREFS,MODE_PRIVATE);
+        SharedPreferences sharedPreferences = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
 
-        if(!sharedPreferences.getString(CALL,"").equals(""))
-            set_c.setText(getString(R.string.call_no)+ sharedPreferences.getString(CALL,""));
+        if (!sharedPreferences.getString(CALL, "").equals(""))
+            set_c.setText(getString(R.string.call_no) + sharedPreferences.getString(CALL, ""));
         else
             set_c.setText(R.string.call_no_not_set);
 
-        if(!sharedPreferences.getString(TEXT,"").equals(""))
-            set_t.setText(getString(R.string.text_no)+ sharedPreferences.getString(TEXT,""));
+        if (!sharedPreferences.getString(TEXT, "").equals(""))
+            set_t.setText(getString(R.string.text_no) + sharedPreferences.getString(TEXT, ""));
         else
             set_t.setText(R.string.text_no_not_set);
 
 
-
         getBattery_percentage();
-        hospital=findViewById(R.id.hospital);
-        police=findViewById(R.id.police);
-        police_call=findViewById(R.id.police_call);
-        contact=findViewById(R.id.contact);
-        defence=findViewById(R.id.defence);
-        knife=findViewById(R.id.knife);
-        camera=findViewById(R.id.camera);
+        hospital = findViewById(R.id.hospital);
+        police = findViewById(R.id.police);
+        police_call = findViewById(R.id.police_call);
+        contact = findViewById(R.id.contact);
+        defence = findViewById(R.id.defence);
+        knife = findViewById(R.id.knife);
+        camera = findViewById(R.id.camera);
 
         knife.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -96,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("beginTime", cal.getTimeInMillis());
                 intent.putExtra("allDay", true);
                 intent.putExtra("rrule", "FREQ=DAILY");
-                intent.putExtra("endTime", cal.getTimeInMillis()+60*60*1000);
+                intent.putExtra("endTime", cal.getTimeInMillis() + 60 * 60 * 1000);
                 intent.putExtra("title", "Take Weapon Stash");
                 startActivity(intent);
             }
@@ -117,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
         hospital.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String uri = "google.navigation:"+"q=hospitals+near+me";
+                String uri = "google.navigation:" + "q=hospitals+near+me";
                 startActivity(new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(uri)));
             }
         });
@@ -125,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
         police.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String uri = "google.navigation:"+"q=police+station+near+me";
+                String uri = "google.navigation:" + "q=police+station+near+me";
                 startActivity(new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(uri)));
             }
         });
@@ -133,9 +132,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                SharedPreferences sharedPreferences=getSharedPreferences(SHARED_PREFS,MODE_PRIVATE);
-                String callNumber=sharedPreferences.getString(CALL,"");
-                String textNumber=sharedPreferences.getString(TEXT,"");
+                SharedPreferences sharedPreferences = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
+                String callNumber = sharedPreferences.getString(CALL, "");
+                String textNumber = sharedPreferences.getString(TEXT, "");
                 Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + callNumber));
 
 
@@ -146,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
                     if (ContextCompat.checkSelfPermission(getApplicationContext(), CALL_PHONE) == PackageManager.PERMISSION_GRANTED)
                         startActivity(intent);
                     else
-                        Toast.makeText(getBaseContext(), R.string.please_give_call_permission,Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getBaseContext(), R.string.please_give_call_permission, Toast.LENGTH_SHORT).show();
                 }
 
             }
@@ -155,15 +154,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if(ContextCompat.checkSelfPermission(
+                if (ContextCompat.checkSelfPermission(
                         getApplicationContext(), Manifest.permission.ACCESS_FINE_LOCATION
-                ) != PackageManager.PERMISSION_GRANTED  ){
+                ) != PackageManager.PERMISSION_GRANTED) {
                     ActivityCompat.requestPermissions(
                             MainActivity.this,
                             new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
                             REQUEST_CODE_LOCATION_PERMISSION
                     );
-                }else{
+                } else {
                     getCurrentLocation();
                 }
 
@@ -178,9 +177,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if(ContextCompat.checkSelfPermission(
-                        MainActivity.this,Manifest.permission.WRITE_EXTERNAL_STORAGE)!=
-                PackageManager.PERMISSION_GRANTED) {
+                if (ContextCompat.checkSelfPermission(
+                        MainActivity.this, Manifest.permission.WRITE_EXTERNAL_STORAGE) !=
+                        PackageManager.PERMISSION_GRANTED) {
                     requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
                             101);
                 }
@@ -190,7 +189,7 @@ public class MainActivity extends AppCompatActivity {
                         PackageManager.PERMISSION_GRANTED) {
                     dispatchTakePictureIntent();
                 } else {
-                    requestPermissions(new String[]{Manifest.permission.CAMERA},100);
+                    requestPermissions(new String[]{Manifest.permission.CAMERA}, 100);
                 }
             }
         });
@@ -216,28 +215,28 @@ public class MainActivity extends AppCompatActivity {
         return image;
     }
 
-        private void dispatchTakePictureIntent() {
-            Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-            // Ensure that there's a camera activity to handle the intent
-            if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
-                // Create the File where the photo should go
-                File photoFile = null;
-                try {
-                    photoFile = createImageFile();
-                } catch (IOException ex) {
-                    // Error occurred while creating the File
-                }
-                // Continue only if the File was successfully created
-                if (photoFile != null) {
-                    Uri photoURI = FileProvider.getUriForFile(this,
-                            "com.example.android.fileprovider",
-                            photoFile);
-                    takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
-                    startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
-                    galleryAddPic();
-                }
+    private void dispatchTakePictureIntent() {
+        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        // Ensure that there's a camera activity to handle the intent
+        if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
+            // Create the File where the photo should go
+            File photoFile = null;
+            try {
+                photoFile = createImageFile();
+            } catch (IOException ex) {
+                // Error occurred while creating the File
+            }
+            // Continue only if the File was successfully created
+            if (photoFile != null) {
+                Uri photoURI = FileProvider.getUriForFile(this,
+                        "com.example.android.fileprovider",
+                        photoFile);
+                takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
+                startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
+                galleryAddPic();
             }
         }
+    }
 
     private void galleryAddPic() {
         Intent mediaScanIntent = new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE);
@@ -250,39 +249,40 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        if(requestCode== REQUEST_CODE_LOCATION_PERMISSION && grantResults.length>0){
-            if (grantResults[0]==PackageManager.PERMISSION_GRANTED){
+        if (requestCode == REQUEST_CODE_LOCATION_PERMISSION && grantResults.length > 0) {
+            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 getCurrentLocation();
-            }else{
-                Toast.makeText(this, R.string.permission_denied,Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(this, R.string.permission_denied, Toast.LENGTH_SHORT).show();
             }
         }
     }
 
-    private void getCurrentLocation(){
+    private void getCurrentLocation() {
 
-        LocationRequest locationRequest=new LocationRequest();
+        LocationRequest locationRequest = new LocationRequest();
         locationRequest.setInterval(1000);
         locationRequest.setFastestInterval(3000);
         locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
 
+
         LocationServices.getFusedLocationProviderClient(MainActivity.this)
-                .requestLocationUpdates(locationRequest,new LocationCallback(){
+                .requestLocationUpdates(locationRequest, new LocationCallback() {
 
                     @Override
                     public void onLocationResult(LocationResult locationResult) {
                         super.onLocationResult(locationResult);
                         LocationServices.getFusedLocationProviderClient(MainActivity.this)
                                 .removeLocationUpdates(this);
-                        if(locationResult!=null && locationResult.getLocations().size()>0){
-                            int latestLocationIndex=locationResult.getLocations().size() -1;
-                            double latitude=
+                        if (locationResult != null && locationResult.getLocations().size() > 0) {
+                            int latestLocationIndex = locationResult.getLocations().size() - 1;
+                            double latitude =
                                     locationResult.getLocations().get(latestLocationIndex).getLatitude();
-                            double longitude=
+                            double longitude =
                                     locationResult.getLocations().get(latestLocationIndex).getLongitude();
 
-                            String locationStatus=latitude+"---"+longitude;
-                            Toast.makeText(getApplicationContext(),"Your Lat---long : "+locationStatus,Toast.LENGTH_SHORT).show();
+                            String locationStatus = latitude + "---" + longitude;
+                            Toast.makeText(getApplicationContext(), "Your Lat---long : " + locationStatus, Toast.LENGTH_SHORT).show();
 
                             sendSMS(locationStatus);
 

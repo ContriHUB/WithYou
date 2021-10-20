@@ -43,8 +43,12 @@
                 android:resource="@xml/file_paths" />
         </provider>
 
-        <activity android:name="com.example.withyou.SettingsActivity" />
-        <activity android:name="com.example.withyou.AccessActivity" />
+        <activity
+            android:name="com.example.withyou.SettingsActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name="com.example.withyou.AccessActivity"
+            android:theme="@style/AppTheme" />
 
         <receiver android:name="com.example.withyou.LowBatteryReceiver" >
             <intent-filter>
@@ -53,14 +57,18 @@
         </receiver>
 
         <activity android:name="com.example.withyou.LoginActivity" />
-        <activity android:name="com.example.withyou.SplashActivity" >
+        <activity
+            android:name="com.example.withyou.SplashActivity"
+            android:theme="@style/AppTheme2" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.withyou.MainActivity" />
+        <activity
+            android:name="com.example.withyou.MainActivity"
+            android:theme="@style/AppTheme2" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

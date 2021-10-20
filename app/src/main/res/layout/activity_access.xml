@@ -12,14 +12,14 @@
         android:id="@+id/controls"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:scaleType="center"
-        android:background="@drawable/out_back"
-        app:lottie_scale="0.85"
         android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/out_back"
+        android:scaleType="center"
         app:lottie_autoPlay="true"
         app:lottie_fileName="controls.json"
-        app:lottie_loop="true" />
+        app:lottie_loop="true"
+        app:lottie_scale="0.85" />
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/settings"
         android:layout_width="match_parent"
