@@ -21,4 +21,5 @@
     <string name="call_no_not_set">Call Number : Not Set</string>
     <string name="text_no">\"Text Number : \"</string>
     <string name="text_no_not_set">Text Number : Not Set</string>
+    <string name="sos">SOS</string>
 </resources>

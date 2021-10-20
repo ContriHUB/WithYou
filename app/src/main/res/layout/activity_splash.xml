@@ -27,7 +27,17 @@
         app:lottie_fileName="splash.json"
         app:lottie_loop="true" />
 
-
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:fontFamily="@font/eagle_lake"
+            android:gravity="center_horizontal"
+            android:text="WithYou"
+            android:textColor="#B62222"
+            android:textSize="36sp"
+            android:textStyle="bold" />
 
     </FrameLayout>
 

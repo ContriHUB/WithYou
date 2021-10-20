@@ -57,6 +57,10 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+array preloaded_fonts
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -2465,6 +2469,7 @@ drawable power_back
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font eagle_lake
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2912,6 +2917,15 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView2
+id textView3
+id textView4
+id textView5
+id textView6
+id textView7
+id textView8
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3301,6 +3315,7 @@ string police_number
 string search_menu_title
 string set
 string settings
+string sos
 string status_bar_notification_info_overflow
 string text_no
 string text_no_not_set

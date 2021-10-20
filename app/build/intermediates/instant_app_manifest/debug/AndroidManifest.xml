@@ -66,9 +66,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< Updated upstream
         <activity
             android:name="com.example.withyou.MainActivity"
             android:theme="@style/AppTheme2" />
+=======
+        <activity android:name="com.example.withyou.MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+>>>>>>> Stashed changes
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
