@@ -8,12 +8,12 @@
     android:background="#15151D"
     tools:context=".AccessActivity">
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/controls"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_gravity="center"
         android:layout_weight="1"
+<<<<<<< Updated upstream
         android:background="@drawable/out_back"
         android:scaleType="center"
         app:lottie_autoPlay="true"
@@ -22,15 +22,66 @@
         app:lottie_scale="0.85" />
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/settings"
+=======
+        android:orientation="vertical"
+        android:background="@drawable/out_back">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/controls"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:scaleType="center"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="controls.json"
+            app:lottie_loop="true"
+            app:lottie_scale="0.85" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:gravity="center_horizontal"
+            android:paddingBottom="15dp"
+            android:text="SOS"
+            android:textColor="#FAF5F5"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+>>>>>>> Stashed changes
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:scaleType="center"
-        android:layout_gravity="center"
-        app:lottie_scale="0.1"
-        app:lottie_autoPlay="true"
-        app:lottie_fileName="settings.json"
-        android:background="#ffffff"
-        app:lottie_loop="true" />
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/settings"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:scaleType="center"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="settings.json"
+            app:lottie_loop="true"
+            app:lottie_scale="0.1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:fontFamily="monospace"
+            android:gravity="center_horizontal"
+            android:paddingBottom="15dp"
+            android:text="@string/settings"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
 
 </LinearLayout>
