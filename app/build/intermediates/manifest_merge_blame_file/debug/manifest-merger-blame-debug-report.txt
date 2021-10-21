@@ -15,142 +15,154 @@
 12-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:6:5-40
 12-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:6:18-37
 13
-14    <uses-permission android:name="android.permission.CALL_PHONE" />
-14-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:8:5-69
-14-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:8:22-66
-15    <uses-permission android:name="android.permission.INTERNET" />
-15-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:9:5-67
-15-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:9:22-64
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:8:5-81
+14-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:9:5-79
+15-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:9:22-76
 16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:10:5-79
-16-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:10:22-76
-17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-17-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:11:5-81
-17-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:11:22-78
-18    <uses-permission android:name="android.permission.SEND_SMS" />
-18-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:12:5-67
-18-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:12:22-64
-19    <uses-permission android:name="android.permission.READ_SMS" />
+16-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:9:5-79
+16-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:9:22-76
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:9:5-79
+17-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:9:22-76
+18    <uses-permission android:name="android.permission.CALL_PHONE" />
+18-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:12:5-69
+18-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:12:22-66
+19    <uses-permission android:name="android.permission.INTERNET" />
 19-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:13:5-67
 19-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:13:22-64
-20    <uses-permission android:name="android.permission.CAMERA" />
-20-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:14:5-64
-20-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:14:22-62
-21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-21-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:15:5-79
-21-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:15:22-77
-22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-22-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:16:5-80
-22-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:16:22-78
-23    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
-23-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:17:5-88
-23-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:17:22-86
-24    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-24-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:18:5-85
-24-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:18:22-82
-25
-26    <application
-26-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:20:5-58:19
-27        android:allowBackup="true"
-27-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:21:9-35
-28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-28-->[androidx.core:core:1.5.0] C:\Users\Shruti\.gradle\caches\transforms-2\files-2.1\48cd7bd08e89712a0952f96bb9006374\core-1.5.0\AndroidManifest.xml:24:18-86
-29        android:debuggable="true"
-30        android:extractNativeLibs="false"
-31        android:icon="@drawable/ic_security_black_24dp"
-31-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:22:9-56
-32        android:label="@string/app_name"
-32-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:23:9-41
-33        android:roundIcon="@drawable/ic_security_black_24dp"
-33-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:24:9-61
-34        android:supportsRtl="true"
-34-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:25:9-35
-35        android:testOnly="true"
-36        android:theme="@style/AppTheme" >
-36-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:26:9-40
-37        <provider
-37-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:27:9-35:20
-38            android:name="androidx.core.content.FileProvider"
-38-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:28:13-62
-39            android:authorities="com.example.android.fileprovider"
-39-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:29:13-67
-40            android:exported="false"
-40-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:30:13-37
-41            android:grantUriPermissions="true" >
-41-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:31:13-47
-42            <meta-data
-42-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:32:13-34:64
-43                android:name="android.support.FILE_PROVIDER_PATHS"
-43-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:33:17-67
-44                android:resource="@xml/file_paths" />
-44-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:34:17-51
-45        </provider>
-46
-47        <activity
-47-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:36:9-37:57
-48            android:name="com.example.withyou.SettingsActivity"
-48-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:36:19-51
-49            android:theme="@style/AppTheme1" />
-49-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:37:13-45
-50        <activity
-50-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:38:9-39:46
-51            android:name="com.example.withyou.AccessActivity"
-51-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:38:19-49
-52            android:theme="@style/AppTheme" />
-52-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:39:13-44
-53
-54        <receiver android:name="com.example.withyou.LowBatteryReceiver" >
-54-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:41:9-45:20
-54-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:41:19-53
-55            <intent-filter>
-55-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:42:13-44:29
-56                <action android:name="android.intent.action.BATTERY_LOW" />
-56-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:43:17-76
-56-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:43:25-73
-57            </intent-filter>
-58        </receiver>
-59
-60        <activity android:name="com.example.withyou.LoginActivity" />
-60-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:47:9-51
-60-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:47:19-48
-61        <activity
-61-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:48:9-55:20
-62            android:name="com.example.withyou.SplashActivity"
-62-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:48:19-49
-63            android:theme="@style/AppTheme2" >
-63-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:49:13-45
-64            <intent-filter>
-64-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:50:13-54:29
-65                <action android:name="android.intent.action.MAIN" />
-65-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:51:17-69
-65-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:51:25-66
-66
-67                <category android:name="android.intent.category.LAUNCHER" />
-67-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:53:17-77
-67-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:53:27-74
-68            </intent-filter>
-69        </activity>
-70        <activity
-70-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:56:9-57:47
-71            android:name="com.example.withyou.MainActivity"
-71-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:56:19-47
-72            android:theme="@style/AppTheme2" />
-72-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:57:13-45
-73        <activity
-73-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Shruti\.gradle\caches\transforms-2\files-2.1\9a42baebf3b2b13243dbf6b7d8620e8c\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
-74            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-74-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Shruti\.gradle\caches\transforms-2\files-2.1\9a42baebf3b2b13243dbf6b7d8620e8c\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
-75            android:exported="false"
-75-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Shruti\.gradle\caches\transforms-2\files-2.1\9a42baebf3b2b13243dbf6b7d8620e8c\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
-76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-76-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Shruti\.gradle\caches\transforms-2\files-2.1\9a42baebf3b2b13243dbf6b7d8620e8c\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
-77
-78        <meta-data
-78-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Shruti\.gradle\caches\transforms-2\files-2.1\ed7bc4af426981951e19be90ce86c321\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
-79            android:name="com.google.android.gms.version"
-79-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Shruti\.gradle\caches\transforms-2\files-2.1\ed7bc4af426981951e19be90ce86c321\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
-80            android:value="@integer/google_play_services_version" />
-80-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Shruti\.gradle\caches\transforms-2\files-2.1\ed7bc4af426981951e19be90ce86c321\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
-81    </application>
-82
-83</manifest>
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:9:5-79
+20-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:9:22-76
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:8:5-81
+21-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:8:22-78
+22    <uses-permission android:name="android.permission.SEND_SMS" />
+22-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:16:5-67
+22-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:16:22-64
+23    <uses-permission android:name="android.permission.READ_SMS" />
+23-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:17:5-67
+23-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:17:22-64
+24    <uses-permission android:name="android.permission.CAMERA" />
+24-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:18:5-64
+24-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:18:22-62
+25    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+25-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:19:5-79
+25-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:19:22-77
+26    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+26-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:20:5-80
+26-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:20:22-78
+27    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+27-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:21:5-88
+27-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:21:22-86
+28    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+28-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:22:5-85
+28-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:22:22-82
+29
+30    <application
+30-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:24:5-62:19
+31        android:allowBackup="true"
+31-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:25:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.5.0] C:\Users\Shruti\.gradle\caches\transforms-2\files-2.1\48cd7bd08e89712a0952f96bb9006374\core-1.5.0\AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:icon="@drawable/ic_security_black_24dp"
+35-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:26:9-56
+36        android:label="@string/app_name"
+36-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:27:9-41
+37        android:roundIcon="@drawable/ic_security_black_24dp"
+37-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:28:9-61
+38        android:supportsRtl="true"
+38-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:29:9-35
+39        android:testOnly="true"
+40        android:theme="@style/AppTheme" >
+40-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:30:9-40
+41        <provider
+41-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:31:9-39:20
+42            android:name="androidx.core.content.FileProvider"
+42-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:32:13-62
+43            android:authorities="com.example.android.fileprovider"
+43-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:33:13-67
+44            android:exported="false"
+44-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:34:13-37
+45            android:grantUriPermissions="true" >
+45-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:35:13-47
+46            <meta-data
+46-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:36:13-38:64
+47                android:name="android.support.FILE_PROVIDER_PATHS"
+47-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:37:17-67
+48                android:resource="@xml/file_paths" />
+48-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:38:17-51
+49        </provider>
+50
+51        <activity
+51-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:40:9-41:57
+52            android:name="com.example.withyou.SettingsActivity"
+52-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:40:19-51
+53            android:theme="@style/AppTheme1" />
+53-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:41:13-45
+54        <activity
+54-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:42:9-43:46
+55            android:name="com.example.withyou.AccessActivity"
+55-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:42:19-49
+56            android:theme="@style/AppTheme" />
+56-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:43:13-44
+57
+58        <receiver android:name="com.example.withyou.LowBatteryReceiver" >
+58-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:45:9-49:20
+58-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:45:19-53
+59            <intent-filter>
+59-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:46:13-48:29
+60                <action android:name="android.intent.action.BATTERY_LOW" />
+60-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:47:17-76
+60-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:47:25-73
+61            </intent-filter>
+62        </receiver>
+63
+64        <activity android:name="com.example.withyou.LoginActivity" />
+64-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:51:9-51
+64-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:51:19-48
+65        <activity
+65-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:52:9-59:20
+66            android:name="com.example.withyou.SplashActivity"
+66-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:52:19-49
+67            android:theme="@style/AppTheme2" >
+67-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:53:13-45
+68            <intent-filter>
+68-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:54:13-58:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:55:17-69
+69-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:55:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:57:17-77
+71-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:57:27-74
+72            </intent-filter>
+73        </activity>
+74        <activity
+74-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:60:9-61:47
+75            android:name="com.example.withyou.MainActivity"
+75-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:60:19-47
+76            android:theme="@style/AppTheme2" />
+76-->D:\ContriHub\WithYou\app\src\main\AndroidManifest.xml:61:13-45
+77        <activity
+77-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Shruti\.gradle\caches\transforms-2\files-2.1\9a42baebf3b2b13243dbf6b7d8620e8c\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+78            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+78-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Shruti\.gradle\caches\transforms-2\files-2.1\9a42baebf3b2b13243dbf6b7d8620e8c\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+79            android:exported="false"
+79-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Shruti\.gradle\caches\transforms-2\files-2.1\9a42baebf3b2b13243dbf6b7d8620e8c\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+80-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Shruti\.gradle\caches\transforms-2\files-2.1\9a42baebf3b2b13243dbf6b7d8620e8c\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+81
+82        <meta-data
+82-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Shruti\.gradle\caches\transforms-2\files-2.1\ed7bc4af426981951e19be90ce86c321\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+83            android:name="com.google.android.gms.version"
+83-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Shruti\.gradle\caches\transforms-2\files-2.1\ed7bc4af426981951e19be90ce86c321\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+84            android:value="@integer/google_play_services_version" />
+84-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Shruti\.gradle\caches\transforms-2\files-2.1\ed7bc4af426981951e19be90ce86c321\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+85    </application>
+86
+87</manifest>

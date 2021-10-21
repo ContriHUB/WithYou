@@ -193,8 +193,43 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        police.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
+                if (ContextCompat.checkSelfPermission(
+                        getApplicationContext(), Manifest.permission.ACCESS_FINE_LOCATION
+                ) != PackageManager.PERMISSION_GRANTED) {
+                    ActivityCompat.requestPermissions(
+                            MainActivity.this,
+                            new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
+                            REQUEST_CODE_LOCATION_PERMISSION
+                    );
+                } else {
+                    getCurrentLocation();
+                }
+            }
+        });
+        hospital.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                if (ContextCompat.checkSelfPermission(
+                        getApplicationContext(), Manifest.permission.ACCESS_FINE_LOCATION
+                ) != PackageManager.PERMISSION_GRANTED) {
+                    ActivityCompat.requestPermissions(
+                            MainActivity.this,
+                            new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
+                            REQUEST_CODE_LOCATION_PERMISSION
+                    );
+                } else {
+                    getCurrentLocation();
+                }
+            }
+        });
     }
+
+
 
     private File createImageFile() throws IOException {
         // Create an image file name
@@ -257,6 +292,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+
 
     private void getCurrentLocation() {
 
