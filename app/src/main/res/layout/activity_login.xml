@@ -21,34 +21,35 @@
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="wrap_content"
             android:layout_height="0dp"
+            android:layout_gravity="center"
             android:layout_weight="1"
+            android:fontFamily="monospace"
+            android:padding="5dp"
             android:text="@string/enter_password"
             android:textColor="#FFFFFF"
-            android:textSize="35sp"
-            android:layout_gravity="center"
-
-            />
+            android:textSize="35sp" />
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/passkey"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
-            android:textSize="35sp"
-            android:textColor="#FFFFFF"
             android:layout_gravity="center"
-            />
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/verify"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
-            android:layout_weight="1"
-            android:textSize="35sp"
-            android:textColor="#FFFFFF"
-            android:text="@string/login"
             android:layout_gravity="center"
-            />
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:text="@string/login"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
 
     </LinearLayout>
 
