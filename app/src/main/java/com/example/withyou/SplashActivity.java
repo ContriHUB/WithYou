@@ -2,6 +2,9 @@ package com.example.withyou;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.os.BatteryManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -16,6 +19,10 @@ public class SplashActivity extends AppCompatActivity {
 
         final RelativeLayout constraintLayout = findViewById(R.id.splashScreen);
         Animation splash = AnimationUtils.loadAnimation(this, R.anim.splash_animation);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O)
+            startForegroundService(new Intent(this, BatteryService.class));
+        else
+            startService(new Intent(this, BatteryService.class));
 
         constraintLayout.startAnimation(splash);
         int SPLASH_TIME_OUT = 3000;
