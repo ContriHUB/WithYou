@@ -30,13 +30,13 @@ public class SettingsActivity extends AppCompatActivity {
         polnumber=findViewById(R.id.polnumber);
         textnumber=findViewById(R.id.textnumber);
         set_button=findViewById(R.id.set_button);
-
+// loads data(police no, text no) if provided previously
         loadUpData();
 
         set_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+// on clicking set button it will first Call savaData() to save and then will load details to textviews
                 saveData();
                 Toast.makeText(getBaseContext(), R.string.details_set,Toast.LENGTH_SHORT).show();
                 loadData();
@@ -55,7 +55,7 @@ public class SettingsActivity extends AppCompatActivity {
         });
 
     }
-
+    //fetching user details as private primitive data in key-value pairs using SharedPreferences object
     public void loadUpData(){
 
         SharedPreferences sharedPreferences=getSharedPreferences(SHARED_PREFS,MODE_PRIVATE);
@@ -64,7 +64,7 @@ public class SettingsActivity extends AppCompatActivity {
 
 
     }
-
+    //saving and loading user details as private primitive data in key-value pairs using SharedPreferences object
     public void saveData(){
 
         SharedPreferences sharedPreferences=getSharedPreferences(SHARED_PREFS,MODE_PRIVATE);
@@ -72,6 +72,7 @@ public class SettingsActivity extends AppCompatActivity {
 
         editor.putString(CALL,polnumber.getText().toString());
         editor.putString(TEXT,textnumber.getText().toString());
+        //writing data to storage
         editor.commit();
 
     }

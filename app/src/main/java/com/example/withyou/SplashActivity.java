@@ -18,12 +18,12 @@ public class SplashActivity extends AppCompatActivity {
         Animation splash = AnimationUtils.loadAnimation(this, R.anim.splash_animation);
 
         constraintLayout.startAnimation(splash);
-        int SPLASH_TIME_OUT = 2000; // reduced to 2 seconds
+        // reduced to 2 seconds
+        int SPLASH_TIME_OUT = 2000;
         new android.os.Handler().postDelayed(() -> {
+
             // This method will be executed once the timer is over
             startActivity(new android.content.Intent(SplashActivity.this, AccessActivity.class));
-
-
             // close this activity
             // Following the documentation, right after starting the activity
             // we override the transition
