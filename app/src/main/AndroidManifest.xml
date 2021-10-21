@@ -23,7 +23,12 @@
         <activity android:name=".SettingsActivity"></activity>
         <activity android:name=".AccessActivity" />
 
-        <receiver android:name=".LowBatteryReceiver">
+        <receiver android:name=".LowBatteryReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="restartservice"/>
+            </intent-filter>
         </receiver>
 
         <activity android:name=".LoginActivity" />

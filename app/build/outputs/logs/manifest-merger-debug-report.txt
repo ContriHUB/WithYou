@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:2:1-46:12
 MERGED from [com.airbnb.android:lottie:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\c8f0ac07da86677c531263a60d9c2ca1\jetified-lottie-3.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.2.0-alpha05] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4d0636b72ff0b4d34e0e621b6e6c137f\material-1.2.0-alpha05\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\ea88890b09526096266c9c16859169ae\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -38,22 +38,22 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Admin\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\8909bb9e572b85a1aed6ea82735a7b78\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2541981a540b257b4ca2e11e0b5e803f\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0a4c23a06b3dbfca19007c663bc138f3\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:2:1-46:12
 	package
 		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:4:5-34
 		INJECTED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:2:1-46:12
 		INJECTED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml
 	xmlns:dist
 		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:3:5-61
 	android:versionCode
 		INJECTED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:2:1-46:12
 		INJECTED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:2:11-69
@@ -90,7 +90,7 @@ ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidMani
 	android:name
 		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:14:22-64
 application
-ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:16:5-39:19
+ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:16:5-44:19
 MERGED from [com.airbnb.android:lottie:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\c8f0ac07da86677c531263a60d9c2ca1\jetified-lottie-3.1.0\AndroidManifest.xml:9:5-20
 MERGED from [com.airbnb.android:lottie:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\c8f0ac07da86677c531263a60d9c2ca1\jetified-lottie-3.1.0\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.2.0-alpha05] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4d0636b72ff0b4d34e0e621b6e6c137f\material-1.2.0-alpha05\AndroidManifest.xml:22:5-20
@@ -134,35 +134,45 @@ ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidMani
 	android:name
 		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:24:19-49
 receiver#com.example.withyou.LowBatteryReceiver
-ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:26:9-27:20
+ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:26:9-32:20
+	android:enabled
+		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:27:13-35
+	android:exported
+		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:28:13-36
 	android:name
 		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:26:19-53
+intent-filter#action:name:restartservice
+ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:29:13-31:29
+action#restartservice
+ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:30:17-56
+	android:name
+		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:30:25-54
 activity#com.example.withyou.LoginActivity
-ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:29:9-51
+ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:34:9-51
 	android:name
-		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:29:19-48
+		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:34:19-48
 activity#com.example.withyou.SplashActivity
-ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:30:9-36:20
+ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:35:9-41:20
 	android:name
-		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:30:19-49
+		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:35:19-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:31:13-35:29
+ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:36:13-40:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:32:17-69
+ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:37:17-69
 	android:name
-		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:32:25-66
+		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:34:17-77
+ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:39:17-77
 	android:name
-		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:34:27-74
+		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:39:27-74
 activity#com.example.withyou.MainActivity
-ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:37:9-50
+ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:42:9-50
 	android:name
-		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:37:19-47
+		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:42:19-47
 service#com.example.withyou.BatteryService
-ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:38:9-59
+ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:43:9-59
 	android:name
-		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:38:18-48
+		ADDED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml:43:18-48
 uses-sdk
 INJECTED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Admin\AndroidStudioProjects\WithYou\app\src\main\AndroidManifest.xml

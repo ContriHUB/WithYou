@@ -34,7 +34,13 @@
         <activity android:name="com.example.withyou.SettingsActivity" />
         <activity android:name="com.example.withyou.AccessActivity" />
 
-        <receiver android:name="com.example.withyou.LowBatteryReceiver" >
+        <receiver
+            android:name="com.example.withyou.LowBatteryReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="restartservice" />
+            </intent-filter>
         </receiver>
 
         <activity android:name="com.example.withyou.LoginActivity" />
