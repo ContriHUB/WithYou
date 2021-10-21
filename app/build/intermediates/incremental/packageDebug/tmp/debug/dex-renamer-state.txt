@@ -1,7 +1,7 @@
-#Tue Oct 19 22:55:23 IST 2021
-base.0=D\:\\WithYou\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+#Thu Oct 21 21:10:13 IST 2021
+base.1=D\:\\ContriHub\\WithYou\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
 path.1=classes.dex
+base.0=D\:\\ContriHub\\WithYou\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 renamed.1=classes2.dex
-path.0=classes.dex
 renamed.0=classes.dex
-base.1=D\:\\WithYou\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+path.0=classes.dex
