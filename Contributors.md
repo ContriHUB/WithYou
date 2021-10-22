@@ -13,5 +13,6 @@
 10. [Karimulla Mohammad](https://github.com/rdx-rockstar)
 
 11. [Abhay Dixit](https://github.com/AbhayD11)
-12. [Shivanand](https://github.com/pinnacle20)
-13. [Naman Mittal](https://github.com/just-a-n00b)
+12. [Satvik Sinha](https://github.com/Satvik-Sinha)
+13. [Shivanand](https://github.com/pinnacle20)
+14. [Naman Mittal](https://github.com/just-a-n00b)
