@@ -32,6 +32,7 @@ import android.provider.MediaStore;
 import android.telephony.SmsManager;
 import android.util.Log;
 import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -81,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
     public static final String API_KEY = "2cdbe1a7a05c81d37a0c1117e7285468";
     private ImageCapture imageCapture;
     private String locationStatus = "";
+    private ProgressBar progressBar;
 
 
     @Override
@@ -88,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         previewView = findViewById(R.id.viewFinder);
+        progressBar = findViewById(R.id.progress_circular);
         set_c = findViewById(R.id.set_c);
         set_t = findViewById(R.id.set_t);
 // fetching Details provided in settingsActivity by user
@@ -354,6 +357,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void uploadImage() {
+        progressBar.setVisibility(View.VISIBLE);
         File f = new File(currentPhotoPath);
         Log.i("WithYou", currentPhotoPath);
         MultipartBody.Part filePart = MultipartBody.Part.createFormData("image", f.getName(), RequestBody.create(MediaType.parse("image/*"), f));
@@ -362,6 +366,7 @@ public class MainActivity extends AppCompatActivity {
                 .enqueue(new Callback<ImgBbResponse>() {
                     @Override
                     public void onResponse(Call<ImgBbResponse> call, Response<ImgBbResponse> response) {
+                        progressBar.setVisibility(View.GONE);
                         if (response.code() == 200 && response.body() != null) {
                             currentUrl = currentUrl + response.body().getData().getUrl() + "\n";
                             Log.i("WithYou", currentUrl);
@@ -374,6 +379,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onFailure(Call<ImgBbResponse> call, Throwable t) {
                         Log.i("WithYou", t.getMessage());
+                        progressBar.setVisibility(View.GONE);
                     }
                 });
     }

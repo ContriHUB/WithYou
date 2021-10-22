@@ -4,28 +4,28 @@
         "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/xml_file_paths.xml.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/xml/file_paths.xml"
-    },
-    {
         "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/xml_file_paths.xml.flat",
+        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/xml/file_paths.xml"
     },
     {
         "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/anim_fadeout.xml.flat",
         "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/anim/fadeout.xml"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/anim_fadein.xml.flat",
+        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/anim/fadein.xml"
     },
     {
         "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/anim_fadein.xml.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/anim/fadein.xml"
+        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
         "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
@@ -36,12 +36,12 @@
         "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/layout/activity_login.xml"
-    },
-    {
         "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/layout/activity_login.xml"
     },
     {
         "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/layout_activity_access.xml.flat",
