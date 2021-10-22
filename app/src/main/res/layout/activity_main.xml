@@ -7,6 +7,12 @@
     android:background="#15151D"
     tools:context=".MainActivity">
 
+    <androidx.camera.view.PreviewView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/viewFinder"
+        android:visibility="invisible"/>
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
