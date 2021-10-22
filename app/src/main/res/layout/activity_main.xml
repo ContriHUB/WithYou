@@ -7,6 +7,12 @@
     android:background="#15151D"
     tools:context=".MainActivity">
 
+    <androidx.camera.view.PreviewView
+        android:id="@+id/viewFinder"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:visibility="invisible" />
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -20,54 +26,54 @@
 
             <TextView
                 android:id="@+id/set_c"
-                android:text="@string/call_number_loading"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:textSize="20sp"
+                android:text="@string/call_number_loading"
                 android:textColor="#ffffff"
-                />
+                android:textSize="20sp" />
+
             <TextView
                 android:id="@+id/set_t"
-                android:text="@string/text_number_loading"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:textSize="20sp"
+                android:text="@string/text_number_loading"
                 android:textColor="#ffffff"
-                />
+                android:textSize="20sp" />
 
 
             <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="8"
-            android:orientation="horizontal">
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"
+                android:orientation="horizontal">
 
-            <com.airbnb.lottie.LottieAnimationView
-                android:id="@+id/hospital"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:scaleType="center"
-                app:lottie_scale="1.1"
-                android:layout_gravity="center"
-                app:lottie_autoPlay="true"
-                app:lottie_fileName="hospital.json"
-                app:lottie_loop="true" />
-            <com.airbnb.lottie.LottieAnimationView
-                android:id="@+id/police"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:scaleType="center"
-                android:layout_gravity="center"
-                app:lottie_scale="0.3"
-                app:lottie_autoPlay="true"
-                app:lottie_fileName="police.json"
-                app:lottie_loop="true" />
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/hospital"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:scaleType="center"
+                    app:lottie_autoPlay="true"
+                    app:lottie_fileName="hospital.json"
+                    app:lottie_loop="true"
+                    app:lottie_scale="1.1" />
 
-        </LinearLayout>
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/police"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:scaleType="center"
+                    app:lottie_autoPlay="true"
+                    app:lottie_fileName="police.json"
+                    app:lottie_loop="true"
+                    app:lottie_scale="0.3" />
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -79,25 +85,25 @@
                     android:id="@+id/contact"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
                     android:scaleType="center"
-                    app:lottie_scale="0.4"
-                    android:layout_gravity="center"
                     app:lottie_autoPlay="true"
                     app:lottie_fileName="contact.json"
-                    app:lottie_loop="true" />
+                    app:lottie_loop="true"
+                    app:lottie_scale="0.4" />
 
                 <com.airbnb.lottie.LottieAnimationView
                     android:id="@+id/police_call"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
                     android:scaleType="center"
-                    app:lottie_scale="0.4"
-                    android:layout_gravity="center"
                     app:lottie_autoPlay="true"
                     app:lottie_fileName="police_call.json"
-                    app:lottie_loop="true" />
+                    app:lottie_loop="true"
+                    app:lottie_scale="0.4" />
 
             </LinearLayout>
 
@@ -111,45 +117,45 @@
                     android:id="@+id/defence"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
                     android:scaleType="center"
-                    app:lottie_scale="0.5"
-                    android:layout_gravity="center"
                     app:lottie_autoPlay="true"
                     app:lottie_fileName="youtube.json"
-                    app:lottie_loop="true" />
+                    app:lottie_loop="true"
+                    app:lottie_scale="0.5" />
 
                 <com.airbnb.lottie.LottieAnimationView
                     android:id="@+id/knife"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
                     android:scaleType="center"
-                    app:lottie_scale="0.2"
-                    android:layout_gravity="center"
                     app:lottie_autoPlay="true"
                     app:lottie_fileName="knife.json"
-                    app:lottie_loop="true" />
+                    app:lottie_loop="true"
+                    app:lottie_scale="0.2" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
+                android:layout_height="0dp"
                 android:layout_weight="8"
-                android:orientation="horizontal"
-                android:layout_height="0dp">
+                android:orientation="horizontal">
 
                 <com.airbnb.lottie.LottieAnimationView
                     android:id="@+id/camera"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
                     android:scaleType="center"
-                    app:lottie_scale="0.5"
-                    android:layout_gravity="center"
                     app:lottie_autoPlay="true"
                     app:lottie_fileName="camera.json"
-                    app:lottie_loop="true" />
+                    app:lottie_loop="true"
+                    app:lottie_scale="0.5" />
 
             </LinearLayout>
         </LinearLayout>
