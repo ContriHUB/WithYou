@@ -7,144 +7,149 @@
 7
 8    <uses-sdk
 9        android:minSdkVersion="24"
-9-->D:\WithYou\app\src\main\AndroidManifest.xml
+9-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml
 10        android:targetSdkVersion="31" />
-10-->D:\WithYou\app\src\main\AndroidManifest.xml
+10-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml
 11
 12    <dist:module dist:instant="true" />
-12-->D:\WithYou\app\src\main\AndroidManifest.xml:6:5-40
-12-->D:\WithYou\app\src\main\AndroidManifest.xml:6:18-37
+12-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:6:5-40
+12-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:6:18-37
 13
 14    <uses-permission android:name="android.permission.CALL_PHONE" />
-14-->D:\WithYou\app\src\main\AndroidManifest.xml:8:5-69
-14-->D:\WithYou\app\src\main\AndroidManifest.xml:8:22-66
+14-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:8:5-69
+14-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:8:22-66
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->D:\WithYou\app\src\main\AndroidManifest.xml:9:5-67
-15-->D:\WithYou\app\src\main\AndroidManifest.xml:9:22-64
+15-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:9:5-67
+15-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:9:22-64
 16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->D:\WithYou\app\src\main\AndroidManifest.xml:10:5-79
-16-->D:\WithYou\app\src\main\AndroidManifest.xml:10:22-76
+16-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:10:5-79
+16-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:10:22-76
 17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-17-->D:\WithYou\app\src\main\AndroidManifest.xml:11:5-81
-17-->D:\WithYou\app\src\main\AndroidManifest.xml:11:22-78
+17-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:11:5-81
+17-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:11:22-78
 18    <uses-permission android:name="android.permission.SEND_SMS" />
-18-->D:\WithYou\app\src\main\AndroidManifest.xml:12:5-67
-18-->D:\WithYou\app\src\main\AndroidManifest.xml:12:22-64
+18-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:12:5-67
+18-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:12:22-64
 19    <uses-permission android:name="android.permission.READ_SMS" />
-19-->D:\WithYou\app\src\main\AndroidManifest.xml:13:5-67
-19-->D:\WithYou\app\src\main\AndroidManifest.xml:13:22-64
-20    <uses-permission android:name="android.permission.CAMERA" />
-20-->D:\WithYou\app\src\main\AndroidManifest.xml:14:5-64
-20-->D:\WithYou\app\src\main\AndroidManifest.xml:14:22-62
-21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-21-->D:\WithYou\app\src\main\AndroidManifest.xml:15:5-79
-21-->D:\WithYou\app\src\main\AndroidManifest.xml:15:22-77
-22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-22-->D:\WithYou\app\src\main\AndroidManifest.xml:16:5-80
-22-->D:\WithYou\app\src\main\AndroidManifest.xml:16:22-78
-23
-24    <application
-24-->D:\WithYou\app\src\main\AndroidManifest.xml:18:5-56:19
-25        android:allowBackup="true"
-25-->D:\WithYou\app\src\main\AndroidManifest.xml:19:9-35
-26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-26-->[androidx.core:core:1.5.0] C:\Users\youdo\.gradle\caches\transforms-2\files-2.1\48cd7bd08e89712a0952f96bb9006374\core-1.5.0\AndroidManifest.xml:24:18-86
-27        android:debuggable="true"
-28        android:extractNativeLibs="false"
-29        android:icon="@drawable/ic_security_black_24dp"
-29-->D:\WithYou\app\src\main\AndroidManifest.xml:20:9-56
-30        android:label="@string/app_name"
-30-->D:\WithYou\app\src\main\AndroidManifest.xml:21:9-41
-31        android:roundIcon="@drawable/ic_security_black_24dp"
-31-->D:\WithYou\app\src\main\AndroidManifest.xml:22:9-61
-32        android:supportsRtl="true"
-32-->D:\WithYou\app\src\main\AndroidManifest.xml:23:9-35
-33        android:testOnly="true"
-34        android:theme="@style/AppTheme" >
-34-->D:\WithYou\app\src\main\AndroidManifest.xml:24:9-40
-35        <provider
-35-->D:\WithYou\app\src\main\AndroidManifest.xml:25:9-33:20
-36            android:name="androidx.core.content.FileProvider"
-36-->D:\WithYou\app\src\main\AndroidManifest.xml:26:13-62
-37            android:authorities="com.example.android.fileprovider"
-37-->D:\WithYou\app\src\main\AndroidManifest.xml:27:13-67
-38            android:exported="false"
-38-->D:\WithYou\app\src\main\AndroidManifest.xml:28:13-37
-39            android:grantUriPermissions="true" >
-39-->D:\WithYou\app\src\main\AndroidManifest.xml:29:13-47
-40            <meta-data
-40-->D:\WithYou\app\src\main\AndroidManifest.xml:30:13-32:64
-41                android:name="android.support.FILE_PROVIDER_PATHS"
-41-->D:\WithYou\app\src\main\AndroidManifest.xml:31:17-67
-42                android:resource="@xml/file_paths" />
-42-->D:\WithYou\app\src\main\AndroidManifest.xml:32:17-51
-43        </provider>
-44
-45        <activity
-45-->D:\WithYou\app\src\main\AndroidManifest.xml:34:9-35:57
-46            android:name="com.example.withyou.SettingsActivity"
-46-->D:\WithYou\app\src\main\AndroidManifest.xml:34:19-51
-47            android:theme="@style/AppTheme1" />
-47-->D:\WithYou\app\src\main\AndroidManifest.xml:35:13-45
+19-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:13:5-67
+19-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:13:22-64
+20
+21    <uses-feature android:name="android.hardware.camera.any" />
+21-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:15:5-64
+21-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:15:19-61
+22
+23    <uses-permission android:name="android.permission.CAMERA" />
+23-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:17:5-65
+23-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:17:22-62
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+24-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:18:5-80
+24-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:18:22-77
+25    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+25-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:19:5-81
+25-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:19:22-78
+26
+27    <application
+27-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:21:5-64:19
+28        android:allowBackup="true"
+28-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:22:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.5.0] /home/hitesh/.gradle/caches/transforms-2/files-2.1/48cd7bd08e89712a0952f96bb9006374/core-1.5.0/AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:icon="@drawable/ic_security_black_24dp"
+32-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:23:9-56
+33        android:label="@string/app_name"
+33-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:24:9-41
+34        android:roundIcon="@drawable/ic_security_black_24dp"
+34-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:25:9-61
+35        android:supportsRtl="true"
+35-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:26:9-35
+36        android:testOnly="true"
+37        android:theme="@style/AppTheme" >
+37-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:27:9-40
+38        <provider
+38-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:28:9-36:20
+39            android:name="androidx.core.content.FileProvider"
+39-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:29:13-62
+40            android:authorities="com.example.android.fileprovider"
+40-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:30:13-67
+41            android:exported="false"
+41-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:31:13-37
+42            android:grantUriPermissions="true" >
+42-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:32:13-47
+43            <meta-data
+43-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:33:13-35:64
+44                android:name="android.support.FILE_PROVIDER_PATHS"
+44-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:34:17-67
+45                android:resource="@xml/file_paths" />
+45-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:35:17-51
+46        </provider>
+47
 48        <activity
-48-->D:\WithYou\app\src\main\AndroidManifest.xml:36:9-37:46
-49            android:name="com.example.withyou.AccessActivity"
-49-->D:\WithYou\app\src\main\AndroidManifest.xml:36:19-49
-50            android:theme="@style/AppTheme" />
-50-->D:\WithYou\app\src\main\AndroidManifest.xml:37:13-44
-51
-52        <receiver android:name="com.example.withyou.LowBatteryReceiver" >
-52-->D:\WithYou\app\src\main\AndroidManifest.xml:39:9-43:20
-52-->D:\WithYou\app\src\main\AndroidManifest.xml:39:19-53
-53            <intent-filter>
-53-->D:\WithYou\app\src\main\AndroidManifest.xml:40:13-42:29
-54                <action android:name="android.intent.action.BATTERY_LOW" />
-54-->D:\WithYou\app\src\main\AndroidManifest.xml:41:17-76
-54-->D:\WithYou\app\src\main\AndroidManifest.xml:41:25-73
-55            </intent-filter>
-56        </receiver>
-57
-58        <activity android:name="com.example.withyou.LoginActivity" />
-58-->D:\WithYou\app\src\main\AndroidManifest.xml:45:9-51
-58-->D:\WithYou\app\src\main\AndroidManifest.xml:45:19-48
-59        <activity
-59-->D:\WithYou\app\src\main\AndroidManifest.xml:46:9-53:20
-60            android:name="com.example.withyou.SplashActivity"
-60-->D:\WithYou\app\src\main\AndroidManifest.xml:46:19-49
-61            android:theme="@style/AppTheme2" >
-61-->D:\WithYou\app\src\main\AndroidManifest.xml:47:13-45
-62            <intent-filter>
-62-->D:\WithYou\app\src\main\AndroidManifest.xml:48:13-52:29
-63                <action android:name="android.intent.action.MAIN" />
-63-->D:\WithYou\app\src\main\AndroidManifest.xml:49:17-69
-63-->D:\WithYou\app\src\main\AndroidManifest.xml:49:25-66
-64
-65                <category android:name="android.intent.category.LAUNCHER" />
-65-->D:\WithYou\app\src\main\AndroidManifest.xml:51:17-77
-65-->D:\WithYou\app\src\main\AndroidManifest.xml:51:27-74
-66            </intent-filter>
-67        </activity>
-68        <activity
-68-->D:\WithYou\app\src\main\AndroidManifest.xml:54:9-55:47
-69            android:name="com.example.withyou.MainActivity"
-69-->D:\WithYou\app\src\main\AndroidManifest.xml:54:19-47
-70            android:theme="@style/AppTheme2" />
-70-->D:\WithYou\app\src\main\AndroidManifest.xml:55:13-45
+48-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:38:9-40:57
+49            android:name="com.example.withyou.SettingsActivity"
+49-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:39:13-45
+50            android:theme="@style/AppTheme1" />
+50-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:40:13-45
+51        <activity
+51-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:41:9-43:47
+52            android:name="com.example.withyou.AccessActivity"
+52-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:42:13-43
+53            android:theme="@style/AppTheme" />
+53-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:43:13-44
+54
+55        <receiver android:name="com.example.withyou.LowBatteryReceiver" >
+55-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:45:9-49:20
+55-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:45:19-53
+56            <intent-filter>
+56-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:46:13-48:29
+57                <action android:name="android.intent.action.BATTERY_LOW" />
+57-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:47:17-76
+57-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:47:25-73
+58            </intent-filter>
+59        </receiver>
+60
+61        <activity android:name="com.example.withyou.LoginActivity" />
+61-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:51:9-51
+61-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:51:19-48
+62        <activity
+62-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:52:9-60:20
+63            android:name="com.example.withyou.SplashActivity"
+63-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:53:13-43
+64            android:theme="@style/AppTheme2" >
+64-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:54:13-45
+65            <intent-filter>
+65-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:55:13-59:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:56:17-69
+66-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:56:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:58:17-77
+68-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:58:27-74
+69            </intent-filter>
+70        </activity>
 71        <activity
-71-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\youdo\.gradle\caches\transforms-2\files-2.1\9a42baebf3b2b13243dbf6b7d8620e8c\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
-72            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-72-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\youdo\.gradle\caches\transforms-2\files-2.1\9a42baebf3b2b13243dbf6b7d8620e8c\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
-73            android:exported="false"
-73-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\youdo\.gradle\caches\transforms-2\files-2.1\9a42baebf3b2b13243dbf6b7d8620e8c\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
-74            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-74-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\youdo\.gradle\caches\transforms-2\files-2.1\9a42baebf3b2b13243dbf6b7d8620e8c\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
-75
-76        <meta-data
-76-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\youdo\.gradle\caches\transforms-2\files-2.1\8b35e5d63975e83ea7682c3a5fb933a8\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
-77            android:name="com.google.android.gms.version"
-77-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\youdo\.gradle\caches\transforms-2\files-2.1\8b35e5d63975e83ea7682c3a5fb933a8\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
-78            android:value="@integer/google_play_services_version" />
-78-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\youdo\.gradle\caches\transforms-2\files-2.1\8b35e5d63975e83ea7682c3a5fb933a8\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
-79    </application>
-80
-81</manifest>
+71-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:61:9-63:48
+72            android:name="com.example.withyou.MainActivity"
+72-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:62:13-41
+73            android:theme="@style/AppTheme2" />
+73-->/home/hitesh/codes/contrihub/withyou/app/src/main/AndroidManifest.xml:63:13-45
+74        <activity
+74-->[com.google.android.gms:play-services-base:17.5.0] /home/hitesh/.gradle/caches/transforms-2/files-2.1/9a42baebf3b2b13243dbf6b7d8620e8c/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+75            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+75-->[com.google.android.gms:play-services-base:17.5.0] /home/hitesh/.gradle/caches/transforms-2/files-2.1/9a42baebf3b2b13243dbf6b7d8620e8c/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+76            android:exported="false"
+76-->[com.google.android.gms:play-services-base:17.5.0] /home/hitesh/.gradle/caches/transforms-2/files-2.1/9a42baebf3b2b13243dbf6b7d8620e8c/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.android.gms:play-services-base:17.5.0] /home/hitesh/.gradle/caches/transforms-2/files-2.1/9a42baebf3b2b13243dbf6b7d8620e8c/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+78
+79        <meta-data
+79-->[com.google.android.gms:play-services-basement:17.5.0] /home/hitesh/.gradle/caches/transforms-2/files-2.1/338c7f6adbe2bd640daf107233fa8de9/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+80            android:name="com.google.android.gms.version"
+80-->[com.google.android.gms:play-services-basement:17.5.0] /home/hitesh/.gradle/caches/transforms-2/files-2.1/338c7f6adbe2bd640daf107233fa8de9/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+81            android:value="@integer/google_play_services_version" />
+81-->[com.google.android.gms:play-services-basement:17.5.0] /home/hitesh/.gradle/caches/transforms-2/files-2.1/338c7f6adbe2bd640daf107233fa8de9/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+82    </application>
+83
+84</manifest>

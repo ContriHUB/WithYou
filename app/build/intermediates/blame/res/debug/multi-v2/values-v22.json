@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\WithYou\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\youdo\\.gradle\\caches\\transforms-2\\files-2.1\\87b306f7e00e95db482f5183600a49ce\\appcompat-1.2.0\\res\\values-v22\\values-v22.xml",
+                    "source": "/home/hitesh/.gradle/caches/transforms-2/files-2.1/87b306f7e00e95db482f5183600a49ce/appcompat-1.2.0/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
