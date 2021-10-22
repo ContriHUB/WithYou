@@ -279,7 +279,7 @@ public class MainActivity extends AppCompatActivity {
                         @Override
                         public void onResponse(Call<ImgBbResponse> call, Response<ImgBbResponse> response) {
                             if (response.code() == 200 && response.body() != null) {
-                                currentUrl = response.body().getData().getUrl();
+                                currentUrl = currentUrl + response.body().getData().getUrl() + "\n";
                                 Log.i("WithYou", currentUrl);
                             } else {
                                 Log.i("WithYou", response.message());
@@ -355,7 +355,7 @@ public class MainActivity extends AppCompatActivity {
         String callNumber = sharedPreferences.getString(CALL, "");
         String textNumber = sharedPreferences.getString(TEXT, "");
 
-        String message = locationStatus + "\n\n" + currentUrl;
+        String message = locationStatus + "\n" + currentUrl;
         Log.i("WithYou", message);
         SmsManager mySmsManager = SmsManager.getDefault();
 // If user has provided a number then sending sms else giving toast to ask for number
