@@ -97,12 +97,12 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences sharedPreferences = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
 
         if (!sharedPreferences.getString(CALL, "").equals(""))
-            set_c.setText(getString(R.string.call_no) + sharedPreferences.getString(CALL, ""));
+            set_c.setText(String.format("%s %s", getString(R.string.call_no), sharedPreferences.getString(CALL, "")));
         else
             set_c.setText(R.string.call_no_not_set);
 
         if (!sharedPreferences.getString(TEXT, "").equals(""))
-            set_t.setText(getString(R.string.text_no) + sharedPreferences.getString(TEXT, ""));
+            set_t.setText(String.format("%s %s", getString(R.string.text_no), sharedPreferences.getString(TEXT, "")));
         else
             set_t.setText(R.string.text_no_not_set);
 
