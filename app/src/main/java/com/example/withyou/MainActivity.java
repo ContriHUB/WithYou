@@ -27,6 +27,7 @@ import android.net.Uri;
 import android.os.BatteryManager;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.Handler;
 import android.os.Looper;
 import android.provider.MediaStore;
 import android.telephony.SmsManager;
@@ -68,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final int REQUEST_CODE_LOCATION_PERMISSION = 1;
 
-    LottieAnimationView hospital, police, police_call, contact, defence, knife, camera;
+    LottieAnimationView hospital, police, police_call, contact, defence, knife, camera, mic;
     TextView set_c, set_t;
 
     public static final String SHARED_PREFS = "sharedPrefs";
@@ -115,6 +116,8 @@ public class MainActivity extends AppCompatActivity {
         defence = findViewById(R.id.defence);
         knife = findViewById(R.id.knife);
         camera = findViewById(R.id.camera);
+        mic=findViewById(R.id.mic);
+
         startCamera();
         //Here we start a activity to go in our calender set event
         knife.setOnClickListener(new View.OnClickListener() {
@@ -218,30 +221,68 @@ public class MainActivity extends AppCompatActivity {
                 // Intent smsIntent = new Intent(Intent.ACTION_SENDTO,Uri.parse("smsto:1234456;234567"));
                 // smsIntent.putExtra("sms_body", etmessage.getText().toString());
                 // startActivity(smsIntent);
+
+
+                startRecordingAudio();
+                turnCameraOn();
             }
         });
 
         camera.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // checking permissions to use camera and write storage , requesting if app doesn't have those
-                if (ContextCompat.checkSelfPermission(
-                        MainActivity.this, Manifest.permission.WRITE_EXTERNAL_STORAGE) !=
-                        PackageManager.PERMISSION_GRANTED) {
-                    requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
-                            101);
-                }
-
-                if (ContextCompat.checkSelfPermission(
-                        MainActivity.this, Manifest.permission.CAMERA) ==
-                        PackageManager.PERMISSION_GRANTED) {
-                    //calling method to take a picture if have permissions
-                    dispatchTakePictureIntent();
-                } else {
-                    requestPermissions(new String[]{Manifest.permission.CAMERA}, 100);
-                }
+                turnCameraOn();
             }
         });
+
+        mic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                startRecordingAudio();
+            }
+        });
+
+    }
+
+    private void turnCameraOn(){
+
+        // checking permissions to use camera and write storage , requesting if app doesn't have those
+        if (ContextCompat.checkSelfPermission(
+                MainActivity.this, Manifest.permission.WRITE_EXTERNAL_STORAGE) !=
+                PackageManager.PERMISSION_GRANTED) {
+            requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
+                    101);
+        }
+
+        if (ContextCompat.checkSelfPermission(
+                MainActivity.this, Manifest.permission.CAMERA) ==
+                PackageManager.PERMISSION_GRANTED) {
+            //calling method to take a picture if have permissions
+            dispatchTakePictureIntent();
+        } else {
+            requestPermissions(new String[]{Manifest.permission.CAMERA}, 100);
+        }
+    }
+
+    private void startRecordingAudio() {
+        // getting storage permission
+        if (ContextCompat.checkSelfPermission(
+                MainActivity.this, Manifest.permission.WRITE_EXTERNAL_STORAGE) !=
+                PackageManager.PERMISSION_GRANTED) {
+            requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
+                    101);
+        }
+
+        if (ContextCompat.checkSelfPermission(MainActivity.this,
+                Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_DENIED) {
+            ActivityCompat.requestPermissions(MainActivity.this,
+                    new String[]{Manifest.permission.RECORD_AUDIO}
+                    , 200);
+        } else {
+            Intent audioService = new Intent(MainActivity.this, RecordAudioService.class);
+            ContextCompat.startForegroundService(MainActivity.this, audioService);
+        }
     }
 
     private void captureImage() {

@@ -2742,6 +2742,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id message
+id mic
 id middle
 id mini
 id month_grid
@@ -2922,6 +2923,15 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView2
+id textView3
+id textView4
+id textView5
+id textView6
+id textView7
+id textView8
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
