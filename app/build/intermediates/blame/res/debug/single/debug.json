@@ -1,114 +1,114 @@
 [
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/xml_file_paths.xml.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/xml/file_paths.xml"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/anim_fadeout.xml.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/anim/fadeout.xml"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/anim_fadein.xml.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/anim/fadein.xml"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_access.xml.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\layout\\activity_access.xml"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\xml\\file_paths.xml"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/layout/activity_login.xml"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/layout_activity_access.xml.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/layout/activity_access.xml"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/drawable-v24_out_back.xml.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/drawable-v24/out_back.xml"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_out_back.xml.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\drawable-v24\\out_back.xml"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/drawable_ic_security_black_24dp.xml.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/drawable/ic_security_black_24dp.xml"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_in_back.xml.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\drawable-v24\\in_back.xml"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/drawable-v24_power_back.xml.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/drawable-v24/power_back.xml"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/drawable-v24_off_back.xml.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/drawable-v24/off_back.xml"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/layout/activity_main.xml"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_power_back.xml.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\drawable-v24\\power_back.xml"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/drawable-v24_in_back.xml.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/drawable-v24/in_back.xml"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_security_black_24dp.xml.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\drawable\\ic_security_black_24dp.xml"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_off_back.xml.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\drawable-v24\\off_back.xml"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/layout_activity_splash.xml.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/layout/activity_splash.xml"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\layout\\activity_settings.xml"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/layout_activity_settings.xml.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/layout/activity_settings.xml"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\anim_splash_animation.xml.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\anim\\splash_animation.xml"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/anim_splash_animation.xml.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/anim/splash_animation.xml"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\anim_fadein.xml.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\anim\\fadein.xml"
     },
     {
-        "merged": "/home/hitesh/codes/contrihub/withyou/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/hitesh/codes/contrihub/withyou/app/src/main/res/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\anim_fadeout.xml.flat",
+        "source": "C:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\src\\main\\res\\anim\\fadeout.xml"
     }
 ]
