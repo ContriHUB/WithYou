@@ -2742,6 +2742,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id message
+id mic
 id middle
 id mini
 id month_grid
