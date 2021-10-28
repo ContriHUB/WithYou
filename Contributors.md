@@ -9,14 +9,12 @@
 7. [Yashika Jain](https://github.com/Yashikaj14)
 8. [Swati Jindal](https://github.com/Swatijindal08)  
 9. [Nandan Kumar](https://github.com/DE-Nandan)
-
 10. [Karimulla Mohammad](https://github.com/rdx-rockstar)
-
 11. [Abhay Dixit](https://github.com/AbhayD11)
 12. [Shivanand](https://github.com/pinnacle20)
 13. [Naman Mittal](https://github.com/just-a-n00b)
 14. [Rajdeep Tiwari](https://github.com/tiwarirajdeep)
 15. [Pranshu Tiwari](https://github.com/PranshuTiwari14)
 16. [Pranavi](https://github.com/pranavi79)
-
+17. [shivendra pratap singh](https://github.com/shiva2003397)
 
