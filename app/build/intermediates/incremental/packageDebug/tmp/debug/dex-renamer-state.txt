@@ -1,7 +1,12 @@
-#Fri Oct 22 22:51:54 IST 2021
+<<<<<<< HEAD
+#Mon Oct 25 20:51:53 IST 2021
+base.0=C\:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+=======
+#Sat Oct 23 19:39:45 IST 2021
 base.0=/home/hitesh/codes/contrihub/withyou/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+>>>>>>> 162148282f22e46d3525a651eb6f94a7cfa10671
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/home/hitesh/codes/contrihub/withyou/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
+base.1=C\:\\Users\\gargg\\Desktop\\contriHub\\WithYou\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
