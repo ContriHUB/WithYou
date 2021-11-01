@@ -2,45 +2,34 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splashScreen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/splashScreen"
     android:background="#15151D"
-    tools:context=".SplashActivity"
-
-    >
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
+    tools:context=".SplashActivity">
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="center"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        app:lottie_scale="0.38"
+        android:scaleType="center"
         app:lottie_autoPlay="true"
         app:lottie_fileName="splash.json"
-        app:lottie_loop="true" />
+        app:lottie_loop="true"
+        app:lottie_scale="0.38" />
 
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="450dp"
-            android:fontFamily="monospace"
-            android:gravity="center_horizontal"
-            android:text="WithYou"
-            android:textColor="#B62222"
-            android:textSize="36sp"
-            android:textStyle="bold" />
-
-
-
-    </FrameLayout>
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal"
+        android:text="WithYou"
+        android:textColor="#B62222"
+        android:textSize="36sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
